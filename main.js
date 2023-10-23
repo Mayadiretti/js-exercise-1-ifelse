@@ -1,10 +1,13 @@
-let cinema = prompt('quanti anni hai?')
-let età = 15;
-if(età < 13){
-    alert('solo film con classificazione PG')
-}
-if(età > 17){
-    alert('possono vedere tutti i film')
+let costo = prompt('quanto costa e qual è lo sconto?')
+let prezzo = 100;
+let sconto = 50;
+
+let totale = (prezzo - sconto) / 100;
+let PrezzoFinale = 50;
+let alert = (PrezzoFinale);
+
+if(sconto > 50){
+    alert('buono sconto')
 }else{
-    alert('possono vedere film con PG e PG-13')
+    alert('non è un ottimo sconto')
 }
