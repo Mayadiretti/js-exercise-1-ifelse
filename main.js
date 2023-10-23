@@ -1,6 +1,5 @@
-let eta= prompt('in che anno sei nato?')
-let nascita= 2003;
-let anno= 2023;
-
-let result= anno - nascita;
-alert(result)
+let temperatura = prompt('quanti sono 64 Fahrenheit?')
+let Fahrenheit = 64;
+Celsius= 32;
+ let result= Fahrenheit / Celsius;
+ alert (result)
