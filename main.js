@@ -1,6 +1,6 @@
-let tazze = prompt('quante tazze di caffe sono state vendute oggi?')
-let caffe = 30;
-let costo = 2;
+let eta= prompt('in che anno sei nato?')
+let nascita= 2003;
+let anno= 2023;
 
-let result = caffe * costo;
+let result= anno - nascita;
 alert(result)
